@@ -11,6 +11,31 @@
 
 ## User Guide
 
+* [Create Devtron App](db-docs/apps/create-devtron-app.md)
+  * [Attach Code Repository](db-docs/apps/attach-code-repository.md)
+  * [Set up Build Configuration](db-docs/apps/build-configuration.md)
+  * [Configure Deployment Template](db-docs/apps/configure-deployment-template.md)
+  * [Create ConfigMaps](db-docs/apps/create-configmaps.md)
+  * [Create Secrets](db-docs/apps/create-secrets.md)
+  * [Create Workflow](db-docs/apps/create-workflow.md)
+  * [Add Build (CI) Pipeline](db-docs/apps/add-ci-pipeline.md)
+  * [Add Deployment (CD) Pipeline](db-docs/apps/add-cd-pipeline.md)
+  * [Add External Links](db-docs/apps/add-external-links.md)
+  * [Override Environment Configuration](db-docs/apps/override-environment-configuration.md)
+
+* [Manage Devtron Apps](db-docs/apps/create-devtron-app.md)
+  * [Trigger Build Pipeline (CI)](db-docs/build-and-deploy/trigger-build.md)
+  * [Trigger Deployment Pipeline (CD)](db-docs/build-and-deploy/trigger-deployment.md)
+  * [Hibernate Devtron App](db-docs/hibernate-app.md)
+  * [Unhibernate Devtron App](db-docs/unhibernate-app.md)
+  * [Restart App Workloads](db-docs/restart-workload.md)
+  * [Perform Resource Scanning](db-docs/resource-scanning.md)
+
+* [Manage Helm Apps](db-docs/apps/helm-apps.md)
+* [Manage Argo CD Apps](db-docs/apps/argocd-apps.md)
+* [Manage Flux CD Apps](db-docs/apps/fluxcd-apps.md)
+
+
 * [Explore Kubernetes Resources](db-docs/resource-browser/README.md)
   * [Overview Page](db-docs/resource-browser/overview.md)
   * [Discover and Manage Resources](db-docs/resource-browser/manage-resources.md)
@@ -20,26 +45,39 @@
   * [Add Monitoring Dashboards/Graphs](db-docs/resource-browser/monitoring-graphs.md)
   * [Run Kubectl Commands Locally](db-docs/resource-browser/kubectl-local.md)
 
-* [Use Resource Watcher](db-docs/resource-watcher.md)
+* [Use Resource Watcher](db-docs/resource-watcher/README.md)
+  * [Intercept Changes in Resource](db-docs/resource-watcher/intercept-changes.md)
+  * [Execute Runbook - Job/Webhook](db-docs/resource-watcher/execute-runbook.md)
 
-* [Manage Applications](db-docs/apps/manage-apps.md)
-  * [Helm Apps](db-docs/apps/helm-apps.md)
-  * [Argo CD Apps](db-docs/apps/argocd-apps.md)
-  * [Flux CD Apps](db-docs/apps/fluxcd-apps.md)
-  * [Devtron Apps](db-docs/apps/devtron-apps.md)
-
-* [Build & Deploy (CI/CD)](db-docs/build-and-deploy.md)
+* [Jobs](db-docs/jobs/README.md)
+  * [Create a Job](db-docs/jobs/create-job.md)
+  * [Configure a Job](db-docs/jobs/configure-job.md)
+  * [Trigger a Job](db-docs/jobs/trigger-job.md)
 
 * [Deploy Charts from Chart Store](db-docs/chart-store/README.md)
   * [Examples](db-docs/chart-store/examples/README.md)
-    * [Deploying MySQL Helm Chart](db-docs/chart-store/examples/deploying-mysql-helm-chart.md)
-    * [Deploying MongoDB Helm Chart](db-docs/chart-store/examples/deploying-mongodb-helm-chart.md)
 
 * [Software Distribution Hub](db-docs/sdh/README.md)
-  * 
+  * [Add a Tenant](db-docs/sdh/add-tenant.md)
+  * [Add Installation](db-docs/sdh/add-installation.md)
+  * [Map Environments](db-docs/sdh/map-environments.md)
+  * [Create Release Track and Versions](db-docs/sdh/create-track.md)
+  * [Add Applications to Release Track](db-docs/sdh/add-apps.md)
+  * [Select Images](db-docs/sdh/select-images.md)
+  * [Deploying a Release](db-docs/sdh/deploy-release.md)
+
+* [Plugins](db-docs/plugins/README.md)
 
 ## Operator Guide
 
+* [Configurations at Installation](db-docs/installation-config.md)
+  * [Secrets](db-docs/secrets.md)
+  * [ConfigMaps](db-docs/configmaps.md)
+  * [Overrides](db-docs/overrides.md)
+  * [Blob Storage](db-docs/blob-storage.md)
+  * [Dashboard Configuration](db-docs/dashboard-config.md)
+* [Ingress Setup](db-docs/ingress.md)
+* [Override Default Configurations](db-docs/ingress.md)
 * [Upgrade Devtron](db-docs/upgrade-devtron.md)
 * [Set a Host URL](db-docs/host-url.md)
 * [Create Projects](db-docs/projects.md)
@@ -64,12 +102,16 @@
   * [Create Allow/Block Policies](db-docs/security/scanning-tools.md)
   * [Check Vulnerability Scan Reports](db-docs/security/scan-reports.md)
   * [Search CVE Database for Flaws](db-docs/security/cve-policy.md)
-* [Set up Notifications](db-docs/notifications/README.md)
+* [Notifications for CI/CD actions](db-docs/notifications/README.md)
+  * [SES](db-docs/notifications/ses.md)
+  * [SMTP](db-docs/notifications/smtp.md)
+  * [Slack](db-docs/notifications/slack.md)
+  * [Webhook](db-docs/notifications/webhook.md)
 * [Charts and Chart Store](db-docs/charts/charts.md)
 * [Deployment Charts](db-docs/charts/deployment-charts.md)
 * [Lock Deployment Configuration](db-docs/lock-deployment-configuration.md)
 * [Provide Deployment Approval](db-docs/approval-policy.md)
-* [Create Deployment Window](db-docs/deployment-window.md)
+* [Manage Deployment Window](db-docs/deployment-window.md)
 * [Enforce Mandatory Plugins](db-docs/plugin-policy.md)
 * [Using Scoped Variables](db-docs/scoped-variables.md)
 * [External Links](db-docs/external-links.md)
@@ -80,10 +122,19 @@
 * [Show/Hide Flux CD App Listing](db-docs/operations/enable-fluxcd-listing.md)
 * [Configure GUI Schema for Manifests](db-docs/operations/edit-gui-schema.md)
 * [Configure Lock Schema for Manifests](db-docs/operations/edit-lock-schema.md)
+* [Create Your Plugin](db-docs/plugins/create-plugin.md)
+* [Integrations](db-docs/integrations/README.md)
+  * [Build and Deploy (CI/CD)](db-docs/integrations/ci-cd.md)
+  * [GitOps (Argo CD)](db-docs/integrations/argo-cd.md)
+  * [Vulnerability Scanning (Trivy)](db-docs/integrations/trivy.md)
+  * [Vulnerability Scanning (Clair)](db-docs/integrations/clair.md)
+  * [Notifications](db-docs/integrations/notifications.md)
+  * [Monitoring (Grafana)](db-docs/integrations/grafana.md)
+* [Backup for Disaster Recovery](db-docs/integrations/disaster-recovery.md)
 * [Uninstall Devtron](db-docs/uninstall-devtron.md)
-
 
 ## Resources
 
 * [Glossary](db-docs/resources/glossary.md)
+* [Troubleshooting](db-docs/resources/troubleshooting.md)
 * [FAQ](db-docs/resources/faq.md)
