@@ -11,6 +11,12 @@
 
 ## User Guide
 
+* [Manage Helm Apps](db-docs/apps/helm-apps.md)
+
+* [Manage Argo CD Apps](db-docs/apps/argocd-apps.md)
+
+* [Manage Flux CD Apps](db-docs/apps/fluxcd-apps.md)
+
 * [Create Devtron App](db-docs/apps/create-devtron-app.md)
   * [Attach Code Repository](db-docs/apps/attach-code-repository.md)
   * [Set up Build Configuration](db-docs/apps/build-configuration.md)
@@ -29,11 +35,6 @@
   * [Hibernate/Unhibernate Devtron App](db-docs/hibernate-app.md)
   * [Restart App Workloads](db-docs/restart-workload.md)
   * [Perform Resource Scanning](db-docs/resource-scanning.md)
-
-* [Manage Helm Apps](db-docs/apps/helm-apps.md)
-* [Manage Argo CD Apps](db-docs/apps/argocd-apps.md)
-* [Manage Flux CD Apps](db-docs/apps/fluxcd-apps.md)
-
 
 * [Explore Kubernetes Resources](db-docs/resource-browser/README.md)
   * [Overview Page](db-docs/resource-browser/overview.md)
