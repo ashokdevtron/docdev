@@ -108,7 +108,7 @@
   * [Slack](db-docs/notifications/slack.md)
   * [Webhook](db-docs/notifications/webhook.md)
 * [Charts and Chart Store](db-docs/charts/charts.md)
-* [Deployment Charts](db-docs/charts/deployment-charts.md)
+* [Upload Deployment Charts](db-docs/charts/deployment-charts.md)
 * [Lock Deployment Configuration](db-docs/lock-deployment-configuration.md)
 * [Provide Deployment Approval](db-docs/approval-policy.md)
 * [Manage Deployment Window](db-docs/deployment-window.md)
