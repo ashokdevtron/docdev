@@ -23,7 +23,7 @@
   * [Add External Links](db-docs/apps/add-external-links.md)
   * [Override Environment Configuration](db-docs/apps/override-environment-configuration.md)
 
-* [Manage Devtron Apps](db-docs/apps/create-devtron-app.md)
+* [Manage Devtron Apps](db-docs/apps/manage-devtron-app.md)
   * [Trigger Build Pipeline (CI)](db-docs/build-and-deploy/trigger-build.md)
   * [Trigger Deployment Pipeline (CD)](db-docs/build-and-deploy/trigger-deployment.md)
   * [Hibernate Devtron App](db-docs/hibernate-app.md)
