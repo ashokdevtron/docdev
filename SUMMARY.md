@@ -26,8 +26,7 @@
 * [Manage Devtron Apps](db-docs/apps/manage-devtron-app.md)
   * [Trigger Build Pipeline (CI)](db-docs/build-and-deploy/trigger-build.md)
   * [Trigger Deployment Pipeline (CD)](db-docs/build-and-deploy/trigger-deployment.md)
-  * [Hibernate Devtron App](db-docs/hibernate-app.md)
-  * [Unhibernate Devtron App](db-docs/unhibernate-app.md)
+  * [Hibernate/Unhibernate Devtron App](db-docs/hibernate-app.md)
   * [Restart App Workloads](db-docs/restart-workload.md)
   * [Perform Resource Scanning](db-docs/resource-scanning.md)
 
