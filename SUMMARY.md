@@ -28,7 +28,7 @@
   * [Flux CD Apps](db-docs/apps/fluxcd-apps.md)
   * [Devtron Apps](db-docs/apps/devtron-apps.md)
 
-### [Build & Deploy (CI/CD)](db-docs/build-and-deploy.md)
+* [Build & Deploy (CI/CD)](db-docs/build-and-deploy.md)
 
 * [Deploy Charts from Chart Store](db-docs/chart-store/README.md)
   * [Examples](db-docs/chart-store/examples/README.md)
