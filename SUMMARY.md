@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Overview of Devtron](db-docs/README.md)
+* [Overview of Devtron](README.md)
 * [Prerequisites](db-docs/requirements.md)
 * [Installation](db-docs/install-devtron-dashboard.md)
   * [Install Dashboard](db-docs/install-devtron-dashboard.md)
@@ -12,11 +12,8 @@
 ## User Guide
 
 * [Manage Helm Apps](db-docs/apps/helm-apps.md)
-
 * [Manage Argo CD Apps](db-docs/apps/argocd-apps.md)
-
 * [Manage Flux CD Apps](db-docs/apps/fluxcd-apps.md)
-
 * [Create Devtron App](db-docs/apps/create-devtron-app.md)
   * [Attach Code Repository](db-docs/apps/attach-code-repository.md)
   * [Set up Build Configuration](db-docs/apps/build-configuration.md)
@@ -28,14 +25,12 @@
   * [Add Deployment (CD) Pipeline](db-docs/apps/add-cd-pipeline.md)
   * [Add External Links](db-docs/apps/add-external-links.md)
   * [Override Environment Configuration](db-docs/apps/override-environment-configuration.md)
-
-* [Manage Devtron Apps](db-docs/apps/manage-devtron-app.md)
+* [Manage Devtron Apps](user-guide/manage-devtron-apps/README.md)
   * [Trigger Build Pipeline (CI)](db-docs/build-and-deploy/trigger-build.md)
   * [Trigger Deployment Pipeline (CD)](db-docs/build-and-deploy/trigger-deployment.md)
   * [Hibernate/Unhibernate Devtron App](db-docs/hibernate-app.md)
-  * [Restart App Workloads](db-docs/restart-workload.md)
+  * [Restart App Workloads](user-guide/manage-devtron-apps/restart-app-workloads.md)
   * [Perform Resource Scanning](db-docs/resource-scanning.md)
-
 * [Explore Kubernetes Resources](db-docs/resource-browser/README.md)
   * [Overview Page](db-docs/resource-browser/overview.md)
   * [Discover and Manage Resources](db-docs/resource-browser/manage-resources.md)
@@ -44,19 +39,15 @@
   * [Cluster Terminal](db-docs/resource-browser/terminal.md)
   * [Add Monitoring Dashboards/Graphs](db-docs/resource-browser/monitoring-graphs.md)
   * [Run Kubectl Commands Locally](db-docs/resource-browser/kubectl-local.md)
-
 * [Use Resource Watcher](db-docs/resource-watcher/README.md)
   * [Intercept Changes in Resource](db-docs/resource-watcher/intercept-changes.md)
   * [Execute Runbook - Job/Webhook](db-docs/resource-watcher/execute-runbook.md)
-
 * [Jobs](db-docs/jobs/README.md)
   * [Create a Job](db-docs/jobs/create-job.md)
   * [Configure a Job](db-docs/jobs/configure-job.md)
-  * [Trigger a Job](db-docs/jobs/trigger-job.md)
-
+  * [Trigger a Job](user-guide/jobs/trigger-a-job.md)
 * [Deploy Charts from Chart Store](db-docs/chart-store/README.md)
   * [Examples](db-docs/chart-store/examples/README.md)
-
 * [Software Distribution Hub](db-docs/sdh/README.md)
   * [Add a Tenant](db-docs/sdh/add-tenant.md)
   * [Add Installation](db-docs/sdh/add-installation.md)
@@ -65,7 +56,6 @@
   * [Add Applications to Release Track](db-docs/sdh/add-apps.md)
   * [Select Images](db-docs/sdh/select-images.md)
   * [Deploying a Release](db-docs/sdh/deploy-release.md)
-
 * [Plugins](db-docs/plugins/README.md)
 
 ## Operator Guide
@@ -86,14 +76,14 @@
 * [GitOps Configuration](db-docs/gitops-configuration.md)
 * [Add Container/OCI Registry](db-docs/oci-registry.md)
 * [User Management (RBAC)](db-docs/authorization/README.md)
-    * [Google SSO](db-docs/authorization/sso-login-services/google.md)
-    * [GitHub SSO](db-docs/authorization/sso-login-services/github.md)
-    * [GitLab SSO](db-docs/authorization/sso-login-services/gitlab.md)
-    * [Microsoft SSO](db-docs/authorization/sso-login-services/microsoft.md)
-    * [LDAP SSO](db-docs/authorization/sso-login-services/ldap.md)
-    * [Keycloak SSO](db-docs/authorization/sso-login-services/keycloak.md)
-    * [Okta SSO](db-docs/authorization/sso-login-services/okta.md)
-    * [OpenShift SSO](db-docs/authorization/sso-login-services/openshift.md)
+  * [Google SSO](db-docs/authorization/sso-login-services/google.md)
+  * [GitHub SSO](db-docs/authorization/sso-login-services/github.md)
+  * [GitLab SSO](db-docs/authorization/sso-login-services/gitlab.md)
+  * [Microsoft SSO](db-docs/authorization/sso-login-services/microsoft.md)
+  * [LDAP SSO](db-docs/authorization/sso-login-services/ldap.md)
+  * [Keycloak SSO](db-docs/authorization/sso-login-services/keycloak.md)
+  * [Okta SSO](db-docs/authorization/sso-login-services/okta.md)
+  * [OpenShift SSO](db-docs/authorization/sso-login-services/openshift.md)
   * [Grant User Permissions](db-docs/authorization/user-permissions.md)
   * [Permission Groups](db-docs/authorization/permission-groups.md)
   * [Generate API Tokens](db-docs/authorization/api-tokens.md)
@@ -129,12 +119,12 @@
   * [Vulnerability Scanning (Trivy)](db-docs/integrations/trivy.md)
   * [Vulnerability Scanning (Clair)](db-docs/integrations/clair.md)
   * [Notifications](db-docs/integrations/notifications.md)
-  * [Monitoring (Grafana)](db-docs/integrations/grafana.md)
+  * [Monitoring (Grafana)](operator-guide/integrations/monitoring-grafana.md)
 * [Backup for Disaster Recovery](db-docs/integrations/disaster-recovery.md)
 * [Uninstall Devtron](db-docs/uninstall-devtron.md)
 
 ## Resources
 
 * [Glossary](db-docs/resources/glossary.md)
-* [Troubleshooting](db-docs/resources/troubleshooting.md)
-* [FAQ](db-docs/resources/faq.md)
+* [Troubleshooting](resources/troubleshooting.md)
+* [FAQ](resources/faq.md)
