@@ -1,20 +1,19 @@
-# Chart Store
+# Deploy Charts from Chart Store
 
 ## Introduction
 
 The **Chart Store** shows all the Helm Charts added to the Chart Repository/OCI registry connected to Devtron.
 
-Refer [Manage Helm Apps](../apps/helm-apps.md) to know the process of deploy helm charts from the chart store.
+Refer [Manage Helm Apps](../../user-guide/helm-apps-1.md) to know the process of deploy helm charts from the chart store.
 
 ![Figure 1: Chart Store](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/dashboard/charts-store-page.jpg)
 
----
+***
 
 ## Populating your Charts to the Chart Store
 
 1. From the left sidebar, go to **Chart Store**.
-
-2. You can find your chart(s) either by using the search bar or by selecting your chart source.
+2.  You can find your chart(s) either by using the search bar or by selecting your chart source.
 
     ![Figure 2: Searching your Chart](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/use-cases/oci-pull/chart-search.jpg)
 
@@ -31,4 +30,3 @@ Deprecated charts won't show up in the Chart Store unless you enable the **Show 
 Or, you may try performing a chart resync as shown below:
 
 ![Figure 5: Performing a Resync](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/use-cases/oci-pull/chart-sync.jpg)
-
