@@ -62,6 +62,7 @@
 
 ## Operator Guide
 
+* [Upgrade Devtron](db-docs/upgrade-devtron.md)
 * [Configurations at Installation](db-docs/installation-config.md)
   * [Secrets](db-docs/secrets.md)
   * [ConfigMaps](db-docs/configmaps.md)
@@ -69,8 +70,7 @@
   * [Blob Storage](db-docs/blob-storage.md)
   * [Dashboard Configuration](db-docs/dashboard-config.md)
 * [Ingress Setup](db-docs/ingress.md)
-* [Override Default Configurations](db-docs/ingress.md)
-* [Upgrade Devtron](db-docs/upgrade-devtron.md)
+* [Override Default Configurations](operator-guide/upgrade-devtron-1.md)
 * [Set a Host URL](db-docs/host-url.md)
 * [Create Projects](db-docs/projects.md)
 * [Manage Clusters & Environments](db-docs/cluster-environments.md)
