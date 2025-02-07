@@ -5,8 +5,8 @@
 * [Overview of Devtron](README.md)
 * [Prerequisites](db-docs/requirements.md)
 * [Installation](db-docs/install-devtron-dashboard.md)
-  * [Install Dashboard](db-docs/install-devtron-dashboard.md)
-  * [Install Devtron with CI/CD](db-docs/install-with-cicd.md)
+  * [Dashboard-Only Installation](getting-started/install-devtron-dashboard/install-with-cicd.md)
+  * [Install Devtron with CI/CD](getting-started/install-devtron-dashboard/install-with-cicd-1.md)
   * [Install Devtron with ArgoCD](db-docs/install-with-argocd.md)
 
 ## User Guide
