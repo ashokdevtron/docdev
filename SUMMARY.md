@@ -106,7 +106,7 @@
 * [Provide Deployment Approval](db-docs/approval-policy.md)
 * [Manage Deployment Window](db-docs/deployment-window.md)
 * [Enforce Mandatory Plugins](db-docs/plugin-policy.md)
-* [Using Scoped Variables](db-docs/scoped-variables.md)
+* [Use Scoped Variables](db-docs/scoped-variables.md)
 * [External Links](db-docs/external-links.md)
 * [Attach Metadata Tag to Devtron Apps](db-docs/tags-policy.md)
 * [Pull Image Digest](db-docs/pull-image-digest.md)
