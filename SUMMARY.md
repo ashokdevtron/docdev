@@ -108,7 +108,7 @@
 * [Enforce Mandatory Plugins](db-docs/plugin-policy.md)
 * [Use Scoped Variables](db-docs/scoped-variables.md)
 * [External Links](db-docs/external-links.md)
-* [Attach Metadata Tag to Devtron Apps](db-docs/tags-policy.md)
+* [Attach Tags to Devtron Apps](db-docs/tags-policy.md)
 * [Pull Image Digest](db-docs/pull-image-digest.md)
 * [Catalog Framework](db-docs/catalog-framework.md)
 * [Show/Hide Argo CD App Listing](db-docs/operations/enable-argocd-listing.md)
